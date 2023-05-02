@@ -1,0 +1,7 @@
+version: '3'
+services:
+ message-server:
+     image: message-server:latest
+     build: .
+     ports:
+         - 8000:8080
